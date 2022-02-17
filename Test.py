@@ -8,7 +8,7 @@ class TestSum(unittest.TestCase):
         Test case to add two numbers
         """
         data = [2, -1]
-        result = summation(data)
+        result = sum(data)
         self.assertEqual(result, 5)
 
 if __name__ == '__main__':
